@@ -4,13 +4,14 @@ body{
     background-color: rgb(132, 216, 235);
     background:url("image/ima-1.jpg");
   background-repeat: no-repeat;
-  background-size: 5504px 1580px;
+  background-size: 1280px 350px;
   background-attachment: scroll;
  font-size: 2vw;
+ 
 }
 
 #ptag{
-    
+    padding: 5px;
     text-align: center;
    color: brown;
   
@@ -19,9 +20,9 @@ body{
  .place
 {
   background-color: rgb(235, 74, 15);
-  padding: 20px;
+  padding: 5px;
   text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 } 
 
 .secondrow{
@@ -32,7 +33,7 @@ body{
 .thirdrow{
   margin-top: 0%;
   font-family: cursive;
-  font-size: 50px;
+  font-size: 15px;
 }
 
 .place-2
@@ -45,18 +46,22 @@ body{
 }
 
 .travel{
-  width: 4000px;
-  height:1200px ;
+  width: 600px;
+  height:400px ;
+  align-items: center;
+  justify-content: center;
   display: flex;
-}
-
-.img{
-width: 1080px;
-height: 630px;
+  
 }
 
 .box{
-  margin: 50px;
-  width: 2800px;
-  height: 1200px;
+  margin: 20px;
+  width: 580px;
+  height: 400px;
+}
+
+.img{
+width: 300px;
+height: 230px;
+padding: 5px;
 }
